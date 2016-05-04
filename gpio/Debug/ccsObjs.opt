@@ -1,0 +1,1 @@
+"./intvecs.obj" "./Gpio_example.obj" -l"libc.a" "../C6747.cmd" 

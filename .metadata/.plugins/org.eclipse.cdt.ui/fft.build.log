@@ -1,0 +1,19 @@
+
+**** Build of configuration Debug for project fft ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: C6000 Compiler'
+"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/bin/cl6x" -mv6740 -g --define=c6745 --include_path="C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include" --include_path="../include" --display_error_number --diag_warning=225 --abi=coffabi --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 170: warning #552-D: variable "is_pow_2" was set but never used
+"../main.c", line 172: warning #179-D: variable "s" was declared but never referenced
+'Finished building: ../main.c'
+' '
+'Building target: fft.out'
+'Invoking: C6000 Linker'
+"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/bin/cl6x" -mv6740 -g --define=c6745 --display_error_number --diag_warning=225 --abi=coffabi -z -m"fft.map" --stack_size=0x800 --heap_size=0x800 --warn_sections --display_error_number -i"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/lib" -i"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include" --reread_libs --rom_model -o "fft.out"  "./main.obj" -l"libc.a" -l"C:\CCStudio\c6700\dsplib\lib\dsp67x.lib" "../C6745.cmd" "../dsp67x.lib" 
+<Linking>
+'Finished building target: fft.out'
+' '
+
+**** Build Finished ****

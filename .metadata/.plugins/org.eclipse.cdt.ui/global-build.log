@@ -1,0 +1,48 @@
+
+**** Clean-only build of configuration Debug for project C6747SDRAM ****
+
+C:\ti\ccsv5\utils\bin\gmake -k clean 
+DEL /F  "C6747SDRAM.out"
+DEL /F "all\C6747.pp" "all\flash.pp" "all\init.pp" "all\main.pp" "all\sdram_test.pp" 
+DEL /F "all\C6747.obj" "all\flash.obj" "all\init.obj" "all\main.obj" "all\sdram_test.obj" 
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C6747SDRAM ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../all/C6747.c'
+'Invoking: C6000 Compiler'
+"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/bin/cl6x" -mv6740 -g --define=c6747 --include_path="C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include" --display_error_number --diag_warning=225 --abi=coffabi --preproc_with_compile --preproc_dependency="all/C6747.pp" --obj_directory="all"  "../all/C6747.c"
+'Finished building: ../all/C6747.c'
+' '
+'Building file: ../all/flash.c'
+'Invoking: C6000 Compiler'
+"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/bin/cl6x" -mv6740 -g --define=c6747 --include_path="C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include" --display_error_number --diag_warning=225 --abi=coffabi --preproc_with_compile --preproc_dependency="all/flash.pp" --obj_directory="all"  "../all/flash.c"
+'Finished building: ../all/flash.c'
+' '
+'Building file: ../all/init.c'
+'Invoking: C6000 Compiler'
+"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/bin/cl6x" -mv6740 -g --define=c6747 --include_path="C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include" --display_error_number --diag_warning=225 --abi=coffabi --preproc_with_compile --preproc_dependency="all/init.pp" --obj_directory="all"  "../all/init.c"
+'Finished building: ../all/init.c'
+' '
+'Building file: ../all/main.c'
+'Invoking: C6000 Compiler'
+"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/bin/cl6x" -mv6740 -g --define=c6747 --include_path="C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include" --display_error_number --diag_warning=225 --abi=coffabi --preproc_with_compile --preproc_dependency="all/main.pp" --obj_directory="all"  "../all/main.c"
+'Finished building: ../all/main.c'
+' '
+'Building file: ../all/sdram_test.c'
+'Invoking: C6000 Compiler'
+"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/bin/cl6x" -mv6740 -g --define=c6747 --include_path="C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include" --display_error_number --diag_warning=225 --abi=coffabi --preproc_with_compile --preproc_dependency="all/sdram_test.pp" --obj_directory="all"  "../all/sdram_test.c"
+'Finished building: ../all/sdram_test.c'
+' '
+'Building target: C6747SDRAM.out'
+'Invoking: C6000 Linker'
+"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/bin/cl6x" -mv6740 -g --define=c6747 --display_error_number --diag_warning=225 --abi=coffabi -z -m"C6747SDRAM.map" --stack_size=0x800 --heap_size=0x800 --warn_sections --display_error_number -i"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/lib" -i"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include" --reread_libs --rom_model -o "C6747SDRAM.out"  "./all/sdram_test.obj" "./all/main.obj" "./all/init.obj" "./all/flash.obj" "./all/C6747.obj" -l"libc.a" "../C6747.cmd" 
+<Linking>
+'Finished building target: C6747SDRAM.out'
+' '
+
+**** Build Finished ****

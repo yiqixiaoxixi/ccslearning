@@ -1,0 +1,1 @@
+"./all/sdram_test.obj" "./all/main.obj" "./all/init.obj" "./all/flash.obj" "./all/C6747.obj" -l"libc.a" "../C6747.cmd" 

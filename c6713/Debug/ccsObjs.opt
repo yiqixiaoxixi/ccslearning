@@ -1,0 +1,1 @@
+"./vecs_timer1.obj" "./main.obj" -l"libc.a" -l"C:\Program Files\C6xCSL\lib_3x\csl6713.lib" "../dsk6713bsl.lib" "../timer1.cmd" 
