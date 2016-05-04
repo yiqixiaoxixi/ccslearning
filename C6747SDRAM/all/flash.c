@@ -7,8 +7,6 @@
 #include "stdio.h"
 #include "C6747.h"
 
-
-
 void c6747_spi_init()
 {
 	Uint32 spidat1;
