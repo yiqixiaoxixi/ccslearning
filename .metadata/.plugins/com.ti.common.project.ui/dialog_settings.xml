@@ -2,13 +2,13 @@
 <section name="Workbench">
 	<section name="com.ti.ccstudio.project.ui.internal.wizards.project.ProjectSettingsPage">
 		<item value="C6000" key="CCS.DEVICE_FAMILY"/>
-		<item value="" key="CCS.CODEGEN_TOOL_VERSION"/>
-		<item value="" key="CCS.DEVICE_ENDIANNESS"/>
-		<item value="TMS320C67XX.TMS320C6747.EVMC6747" key="CCS.DEVICE"/>
 		<item value="CCS.TEMPLATES" key="CCS.EXPANDED_AREA"/>
+		<item value="TMS320C67XX.TMS320C6747.EVMC6747" key="CCS.DEVICE"/>
+		<item value="" key="CCS.DEVICE_ENDIANNESS"/>
+		<item value="" key="CCS.CODEGEN_TOOL_VERSION"/>
 		<item value="null" key="CCS.LINKER_COMMAND_FILE"/>
-		<item value="null" key="CCS.RUNTIME_SUPPORT_LIB"/>
 		<item value="executable" key="CCS.OUTPUT_TYPE"/>
+		<item value="null" key="CCS.RUNTIME_SUPPORT_LIB"/>
 		<item value="" key="CCS.OUTPUT_FORMAT"/>
 		<item value="C:\ti\ccsv5\ccs_base\common\targetdb\connections\TIXDS100usb_Connection.xml" key="CCS.CONNECTION"/>
 	</section>
