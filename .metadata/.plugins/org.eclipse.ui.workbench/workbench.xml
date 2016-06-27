@@ -30,7 +30,7 @@
 <coolItem id="org.eclipse.cdt.make.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.rtsc.xdctools.cfgEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -42,8 +42,8 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
 <part id="3"/>
+<part id="2"/>
 <part id="4"/>
 <part id="5"/>
 </presentation>
@@ -57,21 +57,21 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/C6747SDRAM/all/main.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="3" selectionOffset="156" selectionTopPixel="240"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="sdram_test.c" partName="sdram_test.c" path="C:/Users/acer1/workspace_v5_2/C6747SDRAM/all/sdram_test.c" title="sdram_test.c" tooltip="C6747SDRAM/all/sdram_test.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/C6747SDRAM/all/sdram_test.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="450"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="init.c" partName="init.c" path="C:/Users/acer1/workspace_v5_2/C6747SDRAM/all/init.c" title="init.c" tooltip="C6747SDRAM/all/init.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/C6747SDRAM/all/init.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="330"/>
-</editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="C6747.h" partName="C6747.h" path="C:/Users/acer1/workspace_v5_2/C6747SDRAM/all/C6747.h" title="C6747.h" tooltip="C6747SDRAM/all/C6747.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/C6747SDRAM/all/C6747.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="36300" selectionTopPixel="9180"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="30457" selectionTopPixel="7665"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="flash.c" partName="flash.c" path="C:/Users/acer1/workspace_v5_2/C6747SDRAM/all/flash.c" title="flash.c" tooltip="C6747SDRAM/all/flash.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/C6747SDRAM/all/flash.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="2" selectionOffset="251" selectionTopPixel="60"/>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="evmc6747_dsp.gel" partName="evmc6747_dsp.gel" path="C:/Users/acer1/workspace_v5_2/C6747SDRAM/all/evmc6747_dsp.gel" title="evmc6747_dsp.gel" tooltip="C6747SDRAM/all/evmc6747_dsp.gel" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/C6747SDRAM/all/evmc6747_dsp.gel"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="22186" selectionTopPixel="5315"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Pllc_example.c" partName="Pllc_example.c" path="C:/Users/acer1/workspace_v5_2/C6747SDRAM/Pllc_example.c" title="Pllc_example.c" tooltip="C6747SDRAM/Pllc_example.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/C6747SDRAM/Pllc_example.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4087" selectionTopPixel="1335"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Cache_example.c" partName="Cache_example.c" path="C:/Users/acer1/workspace_v5_2/C6747_Cache/Cache_example.c" title="Cache_example.c" tooltip="C6747_Cache/Cache_example.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/C6747_Cache/Cache_example.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2720" selectionTopPixel="795"/>
 </editor>
 </editors>
 <views>
@@ -110,7 +110,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.ti.ccstudio.TICPerspective">
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="com.ti.ccstudio.TICPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.ti.ccstudio.internal.ui.perspectives.TICPerspectiveFactory" id="com.ti.ccstudio.TICPerspective" label="CCS Edit"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -699,173 +699,178 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/flash.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/init.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ti.ccstudio.ui.cmdFileEditor" path="/C6747SDRAM/C6747.cmd"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/C6747.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/gpio/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/gpio/Gpio_example.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ti.ccstudio.ui.cmdFileEditor" path="/gpio/C6747.cmd"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/C6747.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/sdram_test.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/init.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/C6747.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/C6747SDRAM/targetConfigs/readme.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/C6747SDRAM/all/evmc6747_dsp.gel"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/flash.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/sdram_test.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/init.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/C6747.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/C6747SDRAM/targetConfigs/readme.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/flash.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747_Cache/Cache_example.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/Pllc_example.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor" path="/C6747SDRAM/test.ccxml"/>
+<editor factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="C:\ti\ccsv5\tools\compiler\c6000_7.3.4\include\stdio.h" project="C6747_Cache"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/C6747.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/Pllc_example.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747_Cache/Cache_example.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/all/C6747.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/C6747SDRAM/all/evmc6747_dsp.gel"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/C6747SDRAM/Pllc_example.c"/>
 </editors>
-<item historyLabel="main.c" index="0">
+<item historyLabel="sdram_test.c" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="init.c" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="C6747.h" index="2">
+<position info="not_deleted" x="30457" y="0"/>
+</item>
+<item historyLabel="readme.txt" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="evmc6747_dsp.gel" index="4">
+<position info="not_deleted" x="12435" y="0"/>
+</item>
+<item historyLabel="flash.c" index="5">
+<position info="not_deleted" x="1739" y="0"/>
+</item>
+<item historyLabel="evmc6747_dsp.gel" index="4">
+<position info="not_deleted" x="12435" y="0"/>
+</item>
+<item historyLabel="main.c" index="6">
 <position info="not_deleted" x="156" y="3"/>
 </item>
-<item historyLabel="C6747.h" index="4">
+<item historyLabel="sdram_test.c" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
+<item historyLabel="init.c" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="C6747.h" index="9">
+<position info="not_deleted" x="30457" y="0"/>
+</item>
+<item historyLabel="readme.txt" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="flash.c" index="11">
+<position info="not_deleted" x="1739" y="0"/>
+</item>
+<item historyLabel="Cache_example.c" index="12">
+<position/>
+</item>
+<item historyLabel="Pllc_example.c" index="13">
+<position info="not_deleted" x="3060" y="91"/>
+</item>
+<item historyLabel="evmc6747_dsp.gel" index="4">
+<position info="not_deleted" x="20526" y="87"/>
+</item>
+<item historyLabel="Pllc_example.c" index="13">
+<position info="not_deleted" x="3060" y="91"/>
+</item>
+<item historyLabel="evmc6747_dsp.gel" index="4">
+<position info="not_deleted" x="20526" y="87"/>
+</item>
+<item historyLabel="Pllc_example.c" index="13">
+<position info="not_deleted" x="4087" y="0"/>
+</item>
+<item historyLabel="evmc6747_dsp.gel" index="4">
+<position info="not_deleted" x="22640" y="0"/>
+</item>
+<item historyLabel="main.c" index="6">
 <position info="not_deleted" x="156" y="3"/>
 </item>
-<item historyLabel="C6747.h" index="4">
-<position info="not_deleted" x="4735" y="0"/>
+<item historyLabel="Pllc_example.c" index="13">
+<position info="not_deleted" x="4087" y="0"/>
 </item>
-<item historyLabel="C6747.cmd" index="3">
-<position info="not_deleted" x="2290" y="5"/>
+<item historyLabel="test.ccxml" index="14"/>
+<item historyLabel="Cache_example.c" index="12">
+<position info="not_deleted" x="2397" y="0"/>
 </item>
-<item historyLabel="init.c" index="2">
+<item historyLabel="stdio.h" index="15">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="flash.c" index="1">
-<position info="not_deleted" x="1757" y="10"/>
+<item historyLabel="Cache_example.c" index="12">
+<position info="not_deleted" x="2397" y="0"/>
 </item>
-<item historyLabel="C6747.h" index="4">
-<position info="not_deleted" x="29086" y="10"/>
+<item historyLabel="Cache_example.c" index="12">
+<position info="not_deleted" x="2402" y="0"/>
 </item>
-<item historyLabel="C6747.h" index="4">
-<position info="not_deleted" x="29133" y="8"/>
+<item historyLabel="Cache_example.c" index="12">
+<position info="not_deleted" x="2420" y="0"/>
 </item>
-<item historyLabel="C6747.h" index="4">
-<position info="not_deleted" x="28257" y="9"/>
+<item historyLabel="Cache_example.c" index="12">
+<position info="not_deleted" x="4521" y="75"/>
 </item>
-<item historyLabel="C6747.cmd" index="3">
-<position info="not_deleted" x="2290" y="5"/>
+<item historyLabel="Cache_example.c" index="12">
+<position info="not_deleted" x="4603" y="34"/>
 </item>
-<item historyLabel="flash.c" index="1">
-<position info="not_deleted" x="1757" y="10"/>
+<item historyLabel="Cache_example.c" index="12">
+<position info="not_deleted" x="5086" y="36"/>
 </item>
-<item historyLabel="C6747.h" index="4">
-<position info="not_deleted" x="28257" y="9"/>
+<item historyLabel="Cache_example.c" index="12">
+<position info="not_deleted" x="2402" y="0"/>
 </item>
-<item historyLabel="flash.c" index="1">
-<position info="not_deleted" x="1696" y="11"/>
+<item historyLabel="evmc6747_dsp.gel" index="4">
+<position info="not_deleted" x="22640" y="0"/>
 </item>
-<item historyLabel="C6747.h" index="4">
-<position info="not_deleted" x="28864" y="11"/>
+<item historyLabel="Pllc_example.c" index="13">
+<position info="not_deleted" x="4087" y="0"/>
 </item>
-<item historyLabel="flash.c" index="1">
-<position info="not_deleted" x="1696" y="11"/>
+<item historyLabel="Cache_example.c" index="12">
+<position info="not_deleted" x="2402" y="0"/>
 </item>
-<item historyLabel="C6747.h" index="4">
-<position info="not_deleted" x="28864" y="11"/>
+<item historyLabel="Pllc_example.c" index="13">
+<position info="not_deleted" x="4087" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
+<item historyLabel="evmc6747_dsp.gel" index="4">
+<position info="not_deleted" x="21253" y="0"/>
+</item>
+<item historyLabel="Pllc_example.c" index="13">
+<position info="not_deleted" x="4087" y="0"/>
+</item>
+<item historyLabel="evmc6747_dsp.gel" index="4">
+<position info="not_deleted" x="21253" y="0"/>
+</item>
+<item historyLabel="main.c" index="16">
 <position info="not_deleted" x="156" y="3"/>
 </item>
-<item historyLabel="flash.c" index="1">
-<position info="not_deleted" x="1696" y="11"/>
+<item historyLabel="C6747.h" index="17">
+<position info="not_deleted" x="30457" y="0"/>
 </item>
-<item historyLabel="C6747.h" index="4">
-<position info="not_deleted" x="28864" y="11"/>
+<item historyLabel="Pllc_example.c" index="18">
+<position info="not_deleted" x="4087" y="0"/>
 </item>
-<item historyLabel="flash.c" index="1">
-<position info="not_deleted" x="1800" y="10"/>
-</item>
-<item historyLabel="C6747.h" index="4">
-<position info="not_deleted" x="29086" y="10"/>
-</item>
-<item historyLabel="C6747.cmd" index="3">
-<position info="not_deleted" x="2290" y="5"/>
-</item>
-<item historyLabel="flash.c" index="1">
-<position info="not_deleted" x="2340" y="44"/>
-</item>
-<item historyLabel="main.c" index="5">
+<item historyLabel="Cache_example.c" index="19">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="flash.c" index="1">
-<position info="not_deleted" x="2340" y="44"/>
+<item historyLabel="Cache_example.c" index="19">
+<position info="not_deleted" x="2709" y="0"/>
 </item>
-<item historyLabel="Gpio_example.c" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Cache_example.c" index="19">
+<position info="not_deleted" x="2817" y="12"/>
 </item>
-<item historyLabel="C6747.cmd" index="7">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Cache_example.c" index="19">
+<position info="not_deleted" x="2807" y="0"/>
 </item>
-<item historyLabel="Gpio_example.c" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Gpio_example.c" index="6">
-<position info="not_deleted" x="3809" y="2"/>
-</item>
-<item historyLabel="Gpio_example.c" index="6">
-<position info="not_deleted" x="2635" y="7"/>
-</item>
-<item historyLabel="Gpio_example.c" index="6">
-<position info="not_deleted" x="3964" y="131"/>
-</item>
-<item historyLabel="Gpio_example.c" index="6">
-<position info="not_deleted" x="2791" y="8"/>
-</item>
-<item historyLabel="Gpio_example.c" index="6">
-<position info="not_deleted" x="5973" y="0"/>
-</item>
-<item historyLabel="flash.c" index="1">
-<position info="not_deleted" x="2340" y="44"/>
-</item>
-<item historyLabel="C6747.cmd" index="3">
-<position info="not_deleted" x="2290" y="5"/>
-</item>
-<item historyLabel="main.c" index="0">
+<item historyLabel="main.c" index="20">
 <position info="not_deleted" x="156" y="3"/>
 </item>
-<item historyLabel="C6747.h" index="8">
-<position info="not_deleted" x="37804" y="3"/>
+<item historyLabel="C6747.h" index="21">
+<position info="not_deleted" x="30457" y="0"/>
 </item>
-<item historyLabel="main.c" index="9">
-<position info="not_deleted" x="156" y="3"/>
+<item historyLabel="evmc6747_dsp.gel" index="22">
+<position info="not_deleted" x="22186" y="0"/>
 </item>
-<item historyLabel="sdram_test.c" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="init.c" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="sdram_test.c" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="9">
-<position info="not_deleted" x="156" y="3"/>
-</item>
-<item historyLabel="sdram_test.c" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="9">
-<position info="not_deleted" x="156" y="3"/>
-</item>
-<item historyLabel="flash.c" index="12">
-<position info="not_deleted" x="1" y="0"/>
-</item>
-<item historyLabel="main.c" index="13">
-<position info="not_deleted" x="156" y="3"/>
-</item>
-<item historyLabel="sdram_test.c" index="14">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="init.c" index="15">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item active="true" historyLabel="C6747.h" index="16">
-<position info="not_deleted" x="36300" y="0"/>
+<item active="true" historyLabel="Pllc_example.c" index="23">
+<position info="not_deleted" x="4087" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -888,8 +893,29 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Cache_example.c" tooltip="C6747_Cache/Cache_example.c">
+<persistable path="/C6747_Cache/Cache_example.c"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stdio.h" tooltip="C:\ti\ccsv5\tools\compiler\c6000_7.3.4\include\stdio.h">
+<persistable path="C:\ti\ccsv5\tools\compiler\c6000_7.3.4\include\stdio.h" project="C6747_Cache"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Pllc_example.c" tooltip="C6747SDRAM/Pllc_example.c">
+<persistable path="/C6747SDRAM/Pllc_example.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="C6747_Cache/main.c">
+<persistable path="/C6747_Cache/main.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="flash.c" tooltip="C6747SDRAM/all/flash.c">
 <persistable path="/C6747SDRAM/all/flash.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="evmc6747_dsp.gel" tooltip="C6747SDRAM/all/evmc6747_dsp.gel">
+<persistable path="/C6747SDRAM/all/evmc6747_dsp.gel"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="readme.txt" tooltip="C6747SDRAM/targetConfigs/readme.txt">
+<persistable path="/C6747SDRAM/targetConfigs/readme.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor" name="TMS320C6747.ccxml" tooltip="C6747SDRAM/targetConfigs/TMS320C6747.ccxml">
+<persistable path="/C6747SDRAM/targetConfigs/TMS320C6747.ccxml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="C6747.h" tooltip="C6747SDRAM/all/C6747.h">
 <persistable path="/C6747SDRAM/all/C6747.h"/>
@@ -911,27 +937,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="sdram_test.c" tooltip="C6747SDRAM/all/sdram_test.c">
 <persistable path="/C6747SDRAM/all/sdram_test.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="C6747SDRAM/all/main.c">
-<persistable path="/C6747SDRAM/all/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor" name="test.ccxml" tooltip="C6747SDRAM/test.ccxml">
-<persistable path="/C6747SDRAM/test.ccxml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ti.ccstudio.system.setup.editor.editors.MultiPageXMLEditor" name="TMS320C6745.ccxml" tooltip="fft/TMS320C6745.ccxml">
-<persistable path="/fft/TMS320C6745.ccxml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="fft.map" tooltip="fft/Debug/fft.map">
-<persistable path="/fft/Debug/fft.map"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="SHDSPL2RAM" tooltip="fft/SHDSPL2RAM">
-<persistable path="/fft/SHDSPL2RAM"/>
-</file>
-<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ctype.h" tooltip="C:\ti\ccsv5\tools\compiler\c6000_7.3.4\include\ctype.h">
-<persistable path="C:\ti\ccsv5\tools\compiler\c6000_7.3.4\include\ctype.h" project="fft"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ti.ccstudio.ui.libraryEditor" name="dsp67x.lib" tooltip="fft/dsp67x.lib">
-<persistable path="/fft/dsp67x.lib"/>
 </file>
 </mruList>
 </workbench>

@@ -3,7 +3,7 @@
 	<section name="MemoryDumperFillAction">
 	</section>
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
 		<item value="170" key="DIALOG_X_ORIGIN"/>
 	</section>
 	<section name="ZipFileImportWizard">

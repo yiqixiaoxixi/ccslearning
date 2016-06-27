@@ -1,0 +1,15 @@
+
+**** Build of configuration Debug for project C6747_Cache ****
+
+C:\ti\ccsv5\utils\bin\gmake -k Cache_example.obj 
+'Building file: ../Cache_example.c'
+'Invoking: C6000 Compiler'
+"C:/ti/ccsv5/tools/compiler/c6000_7.3.4/bin/cl6x" -mv6740 -g --define=c6747 --include_path="C:/ti/ccsv5/tools/compiler/c6000_7.3.4/include" --include_path="../include" --display_error_number --diag_warning=225 --abi=coffabi --preproc_with_compile --preproc_dependency="Cache_example.pp"  "../Cache_example.c"
+"../Cache_example.c", line 54: fatal error #5: could not open source file "std.h"
+
+1 fatal error detected in the compilation of "../Cache_example.c".
+>> Compilation failure
+Compilation terminated.
+gmake: *** [Cache_example.obj] Error 1
+
+**** Build Finished ****
